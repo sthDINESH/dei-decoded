@@ -1,0 +1,37 @@
+/* Import fonts from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
+
+:root {
+    --primary-font: "Yantramanav", sans-serif;
+    --seconday-font: "Rubik", sans-serif;
+    --accent-font: "Lora", serif;
+
+    --primary-color: #83847C;
+    --secondary-color:#2E2A26;
+    --highlight-color:#8E6574;
+}
+
+/* General styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--primary-color);
+    background-color: var(--primary-color);
+    color:var(--secondary-color);
+}
+
+h1 {
+    font-family: var(--seconday-font);
+}
+
+p {
+    font-family: var(--primary-font);
+}
+
+.cta{
+    background-color: var(--highlight-color);
+}
