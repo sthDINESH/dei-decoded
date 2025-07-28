@@ -19,4 +19,15 @@ The website aims to address the following User goals:
 - Straightforward, easy to understand information presented in clear, well organised format
 - Practical tips and actionable steps to help create diverse and inclusive spaces for all 
 
+#### Target Users
+1. New employees wanting to understand workplace culture
+2. New students entering educational institutions
+3. Professionals transitioning to leadership roles
+4. HR professionals and educators looking for educational DEI resources to share
+5. Managers, small business ownwers, community organization leaders, volunteer coordinators seeking practical implementation guidance to create inclusive work environments
+6. International students workers new to specific cultural centexts
+7. General public seeking personal development and interested in creating inclusive personal networks
+
+
+
 
