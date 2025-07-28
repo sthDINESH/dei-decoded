@@ -126,7 +126,10 @@ For user interaction, the website will include:
 The website uses color palette generated using [colrmind.io](http://colormind.io/).
 ![Color palette](assets/images/color-palette.png)
 
+#### Typography
 
+Fonts for the website are sourced from [Google Fonts](https://fonts.google.com/). [Fontjoy.com](https://fontjoy.com/) was used to view the font choices together to enure they work together.
+![Typography](assets/images/typography.png)
 
 
 
