@@ -28,6 +28,33 @@ The website aims to address the following User goals:
 6. International students workers new to specific cultural centexts
 7. General public seeking personal development and interested in creating inclusive personal networks
 
+### Scope Plane
+
+#### Features
+
+The table below includes the opportunities for the project along with a score of their importance level and viability(rated low to high, 1-5). Features that score high on importance and viability are addressed as part of the MVP. Features that score mid-range are should-have features, which will be added once the project has achieved MVP status. Low scored features are could-have features that if not addressed in this development version could be addressed in a future version.
+
+| Feature | Importance | Viability | | Delivered |
+| --- | --- | --- | --- | --- |
+| Mobile-first responsive design using CSS Grid/Flexbox | 5 | 5 | must-have |  |
+| Logical section organization with visual breaks | 5 | 5 | must-have |  |
+| Sticky navigation with jump-to-section links | 5 | 5 | must-have |  | 
+| Proper ARIA labels and semantic HTML | 4 | 4 | must-have |  |
+| DEI key terms with beginner-friendly explanations | 5 | 5 | must-have |  |
+| Actionable Guide for inclusive practices | 5 | 5 | must-have | |
+| Why DEI matters section with statistics/benefits | 4 | 5 | must-have |  |
+| Tailored DEI guidance for specific contexts  | 3 | 5 | should-have |  |
+| Subtle card hovers and button interactions for UX improvement | 3 | 4 | should-have |  |
+| DEI guidance for cross-cultural collaboration  | 2 | 5 | could-have |  |
+| Key Takeaways, quick checklists, resources for further reading | 2 | 5 | could-have |  |
+| FAQ for common DEI questions | 1 | 5 | could-have |  |
+| Multi-language support | 3 | 1 | could-have |  | 
+
+
+
+
+
+
 
 
 
