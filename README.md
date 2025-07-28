@@ -28,6 +28,27 @@ The website aims to address the following User goals:
 6. International students workers new to specific cultural centexts
 7. General public seeking personal development and interested in creating inclusive personal networks
 
+#### User stories
+1. AS A new employee or student, I WANT TO access clear definitions and basic concepts of diversity and inclusion SO THAT I CAN understand expectations and integrate successfully into my workplace or educational environment.
+
+2. AS A manager or team leader, I WANT TO learn practical steps for creating inclusive environments SO THAT I CAN improve team dynamics and make fair decisions without extensive training resources.
+
+3. AS An HR professional or educator, I WANT TO find easily shareable, structured DEI content SO THAT I CAN provide reliable resources during onboarding, training, or curriculum development.
+
+4. AS A small business owner or startup founder, I WANT TO understand how to build diverse and inclusive practices from the ground up SO THAT I CAN establish positive company culture without dedicated HR departments.
+
+5. AS An international user or remote worker, I WANT TO learn about cultural sensitivity and cross-cultural communication SO THAT I CAN adapt to local norms and collaborate effectively with diverse teams.
+
+6. AS A community organization leader or volunteer coordinator, I WANT TO understand inclusive practices for events and programs SO THAT I CAN make activities welcoming to all community members.
+
+7. AS ANY user accessing the site, I WANT TO easily navigate between topics and find information quickly on mobile devices SO THAT I CAN learn efficiently during limited time or while on-the-go.
+
+8. AS A visual learner or busy professional, I WANT TO see well-organized content with clear headings and actionable tips SO THAT I CAN scan for relevant information and apply concepts immediately.
+
+9. AS A user with accessibility needs or viewing preferences, I WANT TO adjust text size, toggle between light/dark modes, and use enhanced navigation features SO THAT I CAN access content comfortably regardless of my visual abilities or device constraints.
+
+10. AS A new employee, manager, or professional seeking quick answers to specific DEI questions, I WANT TO access a comprehensive FAQ section with common diversity and inclusion questions and clear answers SO THAT I CAN quickly find solutions to immediate concerns without reading through extensive content and confidently address DEI situations as they arise.
+
 ### Scope Plane
 
 #### Features
@@ -48,7 +69,7 @@ The table below includes the opportunities for the project along with a score of
 | DEI guidance for cross-cultural collaboration  | 2 | 5 | could-have |  |
 | Key Takeaways, quick checklists, resources for further reading | 2 | 5 | could-have |  |
 | FAQ for common DEI questions | 1 | 5 | could-have |  |
-| Multi-language support | 3 | 1 | could-have |  | 
+| Accessibility - Multi-language support, dark/light themes, font size adjustment | 3 | 1 | could-have |  | 
 
 
 
