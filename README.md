@@ -119,8 +119,12 @@ For user interaction, the website will include:
 #### Wireframes
 
 
+### Surface plane
 
+#### Colour Scheme
 
+The website uses color palette generated using [colrmind.io](http://colormind.io/).
+![Color palette](assets/images/color-palette.png)
 
 
 
