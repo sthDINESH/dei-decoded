@@ -53,16 +53,16 @@
             <div class="parallax-layer top-layer" id="hero-banner">
                 <div class="container">
                     <div class="row">
-                        <div class="col-12 col-lg-6 mb-4" id="hero-heading">
+                        <div class="col-12 col-lg-6" id="hero-heading">
                             <h1>DEI,<br>Decoded!</h1>
                         </div>
-                        <div class="col-12 col-lg-6 mb-4" id="hero-text">
-                            <p class="lead mb-4">Placeholder text for sub-heading!</p>
-                            <p>Explore diversity and inclusion without the complexity.<br>This beginner-friendly guide
-                                breaks it down into small,
+                        <div class="col-12 col-lg-6" id="hero-text">
+                            <p class="lead">Explore diversity and inclusion without the complexity!</p>
+                            <p><br>Beginner-friendly guide that
+                                breaks DEI concepts down into small,
                                 doable actions—with clarity and care.</p>
                         </div>
-                        <div class="col-12 my-1 d-flex justify-content-center align-items-center">
+                        <div class="col-12 d-flex justify-content-center align-items-center">
                             <a href="#concepts" class="btn btn-primary">Learn more</a>
                         </div>
                     </div>
@@ -72,23 +72,146 @@
             </div>
         </section>
         <!-- Concepts and definitions section -->
-        <section class="parallax-group" id="concepts">
+        <section class="parallax-group" id="concepts-section">
             <div class="parallax-layer top-layer">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-12 py-4">
-                            <h2>DEI: Key Concepts</h2>
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-md-10 d-flex align-items-center">
+                            <h2 class="sub-heading">What is DEI?</h2>
+                        </div>
+                        <div class="col-12 col-md-10 align-self-center">
+                            <p>Diversity, Equity, and Inclusion—the commitment to creating a workplace
+                                where everyone is respected, valued, and supported, regardless of background or
+                                identity. By embracing DEI, organizations foster fairness, innovation, and a positive
+                                experience for every employee.
+                            </p>
+                        </div>
+                        <div class="col-12 col-md-10" id="definitions">
+                            <div class="row justify-content-center align-items-center">
+                                <div class="col-12 col-md-6">
+                                    <div class="concept-card">
+                                        <div class="concept-header" data-bs-toggle="collapse"
+                                            data-bs-target="#diversity" aria-expanded="true" aria-controls="diversity"
+                                            role="button">
+                                            <div class="concept-icon">
+                                                <i class="fa-solid fa-people-group"></i>
+                                            </div>
+                                            <p>Diversity</p>
+                                            <i class="fas fa-chevron-down toggle-icon"></i>
+                                        </div>
+                                        <div class="collapse show" id="diversity">
+                                            <div class="concept-body">
+                                                <p>The presence of different backgrounds, experiences, perspectives, and
+                                                    characteristics within a group or organization. This includes but is
+                                                    not limited to race, ethnicity, gender, age, sexual orientation,
+                                                    disability, religion, and socioeconomic status.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="concept-card">
+                                        <div class="concept-header" data-bs-toggle="collapse"
+                                            data-bs-target="#inclusion" aria-expanded="false" aria-controls="inclusion"
+                                            role="button">
+                                            <div class="concept-icon">
+                                                <i class="fa-solid fa-hands-holding-circle"></i>
+                                            </div>
+                                            <p>Inclusion</p>
+                                            <i class="fas fa-chevron-down toggle-icon"></i>
+                                        </div>
+                                        <div class="collapse" id="inclusion">
+                                            <div class="concept-body">
+                                                <p>The practice of ensuring that people with different identities feel
+                                                    welcomed, valued, and supported. It means creating an environment
+                                                    where everyone can contribute their best work and be their authentic
+                                                    selves.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="concept-card">
+                                        <div class="concept-header" data-bs-toggle="collapse" data-bs-target="#equity"
+                                            aria-expanded="false" aria-controls="equity" role="button">
+                                            <div class="concept-icon">
+                                                <i class="fas fa-balance-scale"></i>
+                                            </div>
+                                            <p>Equity</p>
+                                            <i class="fas fa-chevron-down toggle-icon"></i>
+                                        </div>
+                                        <div class="collapse" id="equity">
+                                            <div class="concept-body">
+                                                <p>Providing fair treatment, access, and opportunities while
+                                                    acknowledging that people start from different places and may need
+                                                    different resources to achieve similar outcomes.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="concept-card">
+                                        <div class="concept-header" data-bs-toggle="collapse"
+                                            data-bs-target="#belonging" aria-expanded="false" aria-controls="belonging"
+                                            role="button">
+                                            <div class="concept-icon">
+                                                <i class="fa-solid fa-gears"></i>
+                                            </div>
+                                            <p>Belonging</p>
+                                            <i class="fas fa-chevron-down toggle-icon"></i>
+                                        </div>
+                                        <div class="collapse" id="belonging">
+                                            <div class="concept-body">
+                                                <p>The feeling of being an accepted and valued member of a group. When
+                                                    people feel a sense of belonging, they are more likely to contribute
+                                                    their unique perspectives and perform at their best.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="concept-card">
+                                        <div class="concept-header" data-bs-toggle="collapse" data-bs-target="#cultural"
+                                            aria-expanded="false" aria-controls="cultural" role="button">
+                                            <div class="concept-icon">
+                                                <i class="fas fa-globe"></i>
+                                            </div>
+                                            <p>Cultural Competence</p>
+                                            <i class="fas fa-chevron-down toggle-icon"></i>
+                                        </div>
+                                        <div class="collapse" id="cultural">
+                                            <div class="concept-body">
+                                                <p>The ability to interact effectively with people from different
+                                                    cultural backgrounds. It involves awareness, knowledge, and skills
+                                                    to communicate and work across cultural differences.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="concept-card">
+                                        <div class="concept-header" data-bs-toggle="collapse"
+                                            data-bs-target="#accessibility" aria-expanded="false"
+                                            aria-controls="accessibility" role="button">
+                                            <div class="concept-icon">
+                                                <i class="fas fa-universal-access"></i>
+                                            </div>
+                                            <p>Accessibility</p>
+                                            <i class="fas fa-chevron-down toggle-icon"></i>
+                                        </div>
+                                        <div class="collapse" id="accessibility">
+                                            <div class="concept-body">
+                                                <p>Designing environments, products, and services that can be used by
+                                                    people with a wide range of abilities and disabilities. This ensures
+                                                    equal access and participation for everyone.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-12">
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi nesciunt tempore qui quo
-                                facere rerum consectetur voluptatum ipsa, unde iste accusantium, ullam voluptatem! At,
-                                cupiditate? Id asperiores molestias ipsum nihil?</p>
-                        </div>
-                        <div class="col-3">
                             I will have an image.
-                        </div>
-                        <div class="col-9">
-                            I will have an accordian
                         </div>
                     </div>
                 </div>
@@ -96,7 +219,9 @@
             </div>
         </section>
     </div>
-
+    
+    <!-- Font Awesome kit -->
+    <script src="https://kit.fontawesome.com/a46681dd6d.js" crossorigin="anonymous"></script>
     <!-- Bootstrap 5 JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"

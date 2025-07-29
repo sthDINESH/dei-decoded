@@ -11,6 +11,10 @@
     --midtone-color: #BEB6AE;
     --highlight-color: #BC5E55;
     --light-highlight-color: #E3A48F;
+
+    /* Transitions */
+    --hover-transform: translateY(-2px);
+    --transition: all 0.3s ease;
 }
 
 /* General styling */
@@ -30,7 +34,17 @@ h1,
 h2,
 h3 {
     font-family: var(--seconday-font);
-    margin-bottom: 1.5rem;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.sub-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1.5rem 0;
 }
 
 .container,
@@ -55,7 +69,7 @@ h3 {
     transform-style: preserve-3d;
 }
 
-.parallax-group:nth-child(even){
+.parallax-group:nth-child(even) {
     background-color: var(--light-color);
 }
 
@@ -77,6 +91,17 @@ h3 {
 .top-layer {
     /* transform: translateZ(0); */
     /* z-index: 2; */
+}
+
+.toggle-icon {
+    color: var(--highlight-color);
+    transition: transform 0.3s ease;
+}
+
+*[aria-expanded="true"] .toggle-icon {
+    transform: rotate(180deg);
+    background-color: var(--highlight-color);
+    color: var(--light-highlight-color);
 }
 
 /* Navbar styling */
@@ -139,17 +164,17 @@ h3 {
     align-content: end;
 }
 
-#hero-heading h1 {
+/* #hero-heading h1 {
     font-size: 3.5rem;
     margin-bottom: 0;
-}
+} */
 
 #hero-text .lead {
     font-family: var(--accent-font);
     font-style: italic;
 }
 
-#hero .btn-primary{
+#hero .btn-primary {
     background-color: var(--highlight-color);
     border-color: var(--highlight-color);
     color: var(--dark-color);
@@ -157,7 +182,8 @@ h3 {
     cursor: pointer;
     transition: all 0.3s ease;
 }
-#hero .btn-primary:hover{
+
+#hero .btn-primary:hover {
     background-color: var(--light-highlight-color);
     transform: translateY(-2px);
     box-shadow: 0 4px 8px var(--highlight-color);
@@ -165,17 +191,75 @@ h3 {
 }
 
 /* Concepts section */
-#concepts .container,
-#concepts .row,
-#concepts .row > * {
-    border: 2px solid blue;
+#concepts-section .container {
+    /* border: 2px solid pink; */
+    height: 100%;
+    width: 100%;
 }
 
-#concepts .container,
-#concepts .row{
-    height:100%;
+#concepts-section .row {
+    /* border: 2px solid green; */
 }
 
+#concepts-section .row>* {
+    /* border: 2px solid blue; */
+}
+
+#concepts-section .container,
+#concepts-section .row {
+    /* height: 100%; */
+    /* width:100%; */
+}
+
+#concepts-section .concept-card {
+    color: var(--dark-color);
+    border: 1px solid var(--midtone-color);
+    box-shadow: 0 4px 6px var(--midtone-color);
+    overflow: hidden;
+    margin: 5px;
+    padding: 5px;
+    transition: var(--transition);
+}
+
+#concepts-section .concept-card:hover {
+    transform: var(--hover-transform);
+    background-color: var(--light-highlight-color);
+    border: 1px solid var(--light-highlight-color);
+    box-shadow: 0 8px 25px var(--light-highlight-color);
+
+}
+
+#concepts-section .concept-header {
+    font-size: 1.2em;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+#concepts-section .concept-header>p {
+    flex: 1 0;
+}
+
+#concepts-section .concept-icon {
+    background-color: var(--highlight-color);
+    color: var(--dark-color);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+}
+
+#concepts-section .concept-body {
+    padding: 15px;
+}
+
+/* Media queries for medium device(tablets+) */
+@media screen and (min-width:768px) {}
 
 /* Media queries for Extra large devices(laptops, larger tablets onwards) */
 @media screen and (min-width:992px) {
