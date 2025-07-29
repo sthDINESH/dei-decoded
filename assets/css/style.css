@@ -26,7 +26,6 @@
 
 body {
     font-family: var(--primary-font);
-    background-color: var(--midtone-color);
     font-size: 0.9rem;
 }
 
@@ -41,11 +40,6 @@ h1 {
     margin-bottom: 1rem;
 }
 
-.sub-heading {
-    font-size: 2rem;
-    font-weight: bold;
-    margin: 1.5rem 0;
-}
 
 .container,
 .row,
@@ -63,14 +57,38 @@ h1 {
 }
 
 .parallax-group {
+    background-color: var(--dark-color);
+    color: var(--light-color);
     height: 100%;
     width: 100%;
     position: relative;
     transform-style: preserve-3d;
 }
 
+.section-heading,
+.sub-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
+    background-color: var(--light-color);
+}
+
+.section-heading{
+    /* min-width:100%; */
+    border-top: 2px solid var(--dark-color); 
+    color: var(--dark-color);
+}
 .parallax-group:nth-child(even) {
     background-color: var(--light-color);
+    color: var(--dark-color);
+}
+
+.parallax-group:nth-child(even) .section-heading,
+.parallax-group:nth-child(even) .sub-heading {
+    background-color: var(--dark-color);
+    color: var(--light-color);
 }
 
 .parallax-layer {
@@ -241,6 +259,18 @@ h1 {
     flex: 1 0;
 }
 
+.icon{
+    background-color: var(--highlight-color);
+    color: var(--dark-color);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
 #concepts-section .concept-icon {
     background-color: var(--highlight-color);
     color: var(--dark-color);
@@ -256,6 +286,122 @@ h1 {
 
 #concepts-section .concept-body {
     padding: 15px;
+}
+
+/* Impact section styling */
+/* Carousel styling */
+.carousel {
+    margin: 2rem 0;
+}
+
+.carousel-content {
+    background-color: var(--light-color);
+    border: 2px solid var(--midtone-color);
+    border-radius: 0;
+    padding: 3rem 2rem;
+    text-align: center;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-content p {
+    color: var(--dark-color);
+    font-size: 0.7rem;
+    margin: 0;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: var(--highlight-color);
+    /* border-radius: 50%; */
+    width: 40px;
+    height: 40px;
+}
+
+.carousel-indicators button {
+    background-color: var(--dark-color);
+    /* border-radius: 50%; */
+    width: 12px;
+    height: 12px;
+    margin: 0 4px;
+}
+
+.carousel-indicators button.active {
+    background-color: var(--highlight-color);
+}
+
+/* Carousel card styling */
+.carousel-content .card {
+    border: none;
+    background-color: transparent;
+    height: 100%;
+}
+
+.carousel-content .card-body {
+    padding: 0.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel-content .icon.impact-icon {
+    background-color: var(--highlight-color);
+    color: var(--light-color);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.carousel-content .card-title {
+    color: var(--dark-color);
+    font-family: var(--seconday-font);
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 0.75rem;
+}
+
+.carousel-content .card-subtitle {
+    color: var(--highlight-color);
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.carousel-content .card-text {
+    color: var(--dark-color);
+    font-size: 1rem;
+    line-height: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.carousel-content .card-link {
+    color: var(--highlight-color);
+    font-weight: 600;
+    text-decoration: none;
+    border: 2px solid var(--highlight-color);
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.carousel-content .card-link:hover {
+    background-color: var(--highlight-color);
+    color: var(--light-color);
+    text-decoration: none;
 }
 
 /* Media queries for medium device(tablets+) */
