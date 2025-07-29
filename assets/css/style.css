@@ -129,6 +129,7 @@ h1 {
 
 .navbar-toggler {
     background-color: var(--highlight-color);
+    border-radius: 0;
 }
 
 .navbar .nav-link {
