@@ -6,9 +6,11 @@
     --seconday-font: "Rubik", sans-serif;
     --accent-font: "Lora", serif;
 
-    --primary-color: #83847C;
-    --secondary-color:#2E2A26;
-    --highlight-color:#8E6574;
+    --dark-color: #2E2A26;
+    --light-color: #FDF7F2;
+    --midtone-color: #BEB6AE;
+    --highlight-color:#BC5E55;
+    --light-highlight-color: #E3A48F;
 }
 
 /* General styling */
@@ -19,9 +21,8 @@
 }
 
 body{
-    font-family: var(--primary-color);
-    background-color: var(--primary-color);
-    color:var(--secondary-color);
+    font-family: var(--primary-font);
+    background-color: var(--light-color);
 }
 
 h1 {
