@@ -28,7 +28,8 @@
 
 body {
     font-family: var(--primary-font);
-    font-size: calc(0.8rem + 0.5vw);
+    /* font-size: calc(0.8rem + 0.5vw); */
+    font-size: 0.8rem;
 }
 
 h1,
@@ -38,22 +39,22 @@ h3 {
 }
 
 h1 {
-    font-size: calc(3rem + 0.8vw);
+    /* font-size: calc(3rem + 0.8vw); */
+    font-size: 1.5rem;
     margin-bottom: 1rem;
 }
 
 h2 {
-    font-size: calc(2rem + 3vw);
+    font-size: 1.2rem;
+    /* font-size: calc(2rem + 3vw); */
     margin: 0;
 }
 
 .parallax-wrapper {
     width: 100vw;
     overflow-x: hidden;
-    /* Remove fixed height to allow natural flow */
-    /* height: 100vh; - REMOVED */
+    min-height: 100vh;
     /* perspective: 5px; */
-    /* border: 2px solid black; */
 }
 
 .parallax-group {
@@ -61,7 +62,7 @@ h2 {
     color: var(--light-color);
     min-height: 100vh; /* Change from height to min-height */
     width: 100%;
-    position: relative;
+    /* position: relative; */
     /* transform-style: preserve-3d; */
 }
 
@@ -70,8 +71,7 @@ h2 {
     margin-right: 0;
     padding-left: 0;
     padding-right: 0;
-    max-width: 100%;
-    width: 100vw;
+    width: 100%;
 }
 
 /* to help debug */
@@ -88,26 +88,23 @@ h2 {
 /* to help debug */
 
 .section-heading {
-    font-size: 2rem;
     font-weight: bold;
-    padding-top: calc(5rem + .5vh);
+    /* padding-top: calc(5rem + .5vh); */
+    padding-top: 2rem;
     padding-bottom: 1.5rem;
-    margin-bottom: calc(2rem + 2vh);
+    /* margin-bottom: calc(2rem + 2vh); */
+    margin-bottom: 1rem;
     color: var(--dark-color);
     background-color: var(--light-color);
     border-top: 2px solid var(--dark-color);
     width: 100vw;
-    /* Make the subheading expand the full viewport width */
-    position: relative;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
 }
 
-.section-intro-text {
-    margin-top: calc(0.1rem + 0.7vh);
-    margin-bottom: calc(0.1rem + 0.7vh);
+.section-intro-text p {
+    margin-top: 0.1rem;
+    /* margin-top: calc(0.1rem + 0.7vh); */
+    /* margin-bottom: calc(2rem + 2vh); */
+    margin-bottom: 0.2rem;
     text-align: center;
 }
 
@@ -116,16 +113,16 @@ h2 {
     color: var(--dark-color);
 }
 
-.parallax-group:nth-child(odd) .section-heading,
-.parallax-group:nth-child(odd) .sub-heading {
+.parallax-group:nth-child(odd) .section-heading{
     background-color: var(--dark-color);
     color: var(--light-color);
+    border-top: 2px solid var(--light-color);
 }
 
 .parallax-layer {
     width: 100%;
-    height: 100%;
-    position: absolute;
+    min-height: 100%;
+    /* position: absolute; */
     top: 0;
     left: 0;
     right: 0;
@@ -134,12 +131,12 @@ h2 {
 
 .base-layer {
     /* transform: translateZ(-5px) scale(2); */
-    z-index: 1;
+    /* z-index: 1; */
 }
 
 .top-layer {
     /* transform: translateZ(0); */
-    z-index: 2;
+    /* z-index: 2; */
 }
 
 .custom-btn {
@@ -147,9 +144,8 @@ h2 {
     border-color: var(--highlight-color);
     color: var(--dark-color);
     border-radius: 0;
-    /* cursor: pointer; */
-    /* transition: all 0.3s ease; */
     transition: var(--transition);
+    font-size: 0.8rem;
 }
 .custom-btn:active,
 .custom-btn:focus,
@@ -159,28 +155,17 @@ h2 {
     transform: var(--hover-transform);
     box-shadow: 0 4px 8px var(--light-highlight-color);
 }
-/* 
- {
-    background-color: var(--light-highlight-color);
-    border-color: var(--light-highlight-color);
-    transform: var(--hover-transform);
-    box-shadow: 0 6px 12px var(--light-highlight-color);
-} */
-
-/* .custom-btn:focus {
-    box-shadow: 0 0 0 0.2rem rgba(188, 94, 85, 0.25);
-} */
 
 .icon {
     background-color: var(--highlight-color);
     color: var(--dark-color);
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.2rem
+    font-size: 0.8rem
 }
 
 .toggle-icon {
@@ -201,7 +186,7 @@ h2 {
     box-shadow: 0 4px 6px var(--midtone-color);
     overflow: hidden;
     margin: 0.5rem;
-    padding: 0.5rem;
+    padding: 0.25rem;
     transition: var(--transition);
     margin-bottom: 0.5vh;
     margin-top: 0.5vh;
@@ -216,7 +201,8 @@ h2 {
 }
 
 .collapsible-card-header {
-    font-size: calc(0.8rem + 0.5vw);
+    /* font-size: calc(0.8rem + 0.5vw); */
+    font-size: 0.8rem;
     font-weight: bold;
     display: flex;
     align-items: baseline;
@@ -294,25 +280,31 @@ h2 {
 #hero-cta {
     display: flex;
     justify-content: center;
-    margin-top: calc(1rem + 0.5vh);
-    margin-bottom: calc(1rem + 0.5vh);
+    /* margin-top: calc(1rem + 0.5vh); */
+    margin-top: 0.5rem;
+    /* margin-bottom: calc(1rem + 0.5vh); */
+    margin-bottom: 0.5rem;
 }
 
 #hero-text p:not(.lead){
-    margin-bottom: calc(0.2rem + 0.5vh) ;
+    /* margin-bottom: calc(0.2rem + 0.5vh) ; */
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
 }
 
 #hero-text .lead {
     font-family: var(--accent-font);
     font-style: italic;
-    margin-bottom: calc(0.5rem + 0.5vh);
+    /* margin-bottom: calc(0.5rem + 0.5vh); */
+    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
 }
 
 
 /* Concepts section */
 .concept-card .icon {
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     margin-right: 0.5rem;
 }
 
@@ -320,6 +312,7 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 1.5rem;
 }
 
 #concepts-image {
@@ -328,12 +321,11 @@ h2 {
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    min-height: 15vh;
+    min-height: 150px;
 }
 
 /* Impact section styling */
 #impact-section .container {
-    min-height: 80vh; /* Change from height to min-height */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -348,9 +340,9 @@ h2 {
     background-color: var(--light-color);
     border: 2px solid var(--midtone-color);
     border-radius: 0;
-    padding: 2rem 1rem;
+    /* padding: 0.8rem 0.3rem; */
     text-align: center;
-    min-height: 370px;
+    min-height: 220px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -370,8 +362,8 @@ h2 {
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
     background-color: var(--highlight-color);
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
 }
 
 .carousel-indicators button {
@@ -403,60 +395,63 @@ h2 {
 .carousel-content .icon.impact-icon {
     background-color: var(--highlight-color);
     color: var(--light-color);
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
 }
 
 .carousel-content .card-title {
     color: var(--dark-color);
     font-family: var(--seconday-font);
     font-weight: 600;
-    margin-bottom: 0.75rem;
+    /* margin-bottom: 0.5rem; */
 }
 
 .carousel-content .card-subtitle {
     color: var(--highlight-color);
     font-weight: 600;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .carousel-content .card-text {
     color: var(--dark-color);
-    line-height: 1.25rem;
-    margin-bottom: 1.5rem;
+    line-height: 1rem;
+    margin-bottom: 0.8rem;
 }
 
 /* Guide section */
 #guide-section .section-heading {
-    padding-top: calc(2rem + .5vh);
+    /* padding-top: calc(2rem + .5vh); */
+    padding-top: 2rem;
 }
 
 #guide-section .container {
-    min-height: 80vh; /* Change from height to min-height */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
+#guide-section .steps-container {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 .step-item {
     display: flex;
-    margin-bottom: calc(0.8rem + 1vh);
+    /* margin-bottom: calc(0.8rem + 1vh); */
+    margin-bottom: 0.8rem;
     position: relative;
 }
 
 .step-item:not(:last-child)::after {
     content: '';
     position: absolute;
-    left: 25px;
-    top: 25px;
+    left: 15px;
+    top: 15px;
     width: 2px;
-    height: calc(100% + 25px);
+    height: calc(100% + 15px);
     background-color: var(--highlight-color);
     z-index: 1;
 }
