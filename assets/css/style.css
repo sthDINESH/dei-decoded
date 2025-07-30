@@ -80,7 +80,7 @@ h2 {
 }
 
 .col-12 {
-    border: 2px solid pink;
+    /* border: 2px solid pink; */
 }
 
 /* to help debug */
@@ -291,6 +291,21 @@ h2 {
     width: 35px;
     height: 35px;
     margin-right: 0.5rem;
+}
+
+#concepts-section .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#concepts-image {
+    background-image: url('../images/concepts-foundation.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 15vh;
 }
 
 /* Impact section styling */
