@@ -111,13 +111,13 @@ h2 {
     text-align: center;
 }
 
-.parallax-group:nth-child(even) {
+.parallax-group:nth-child(odd) {
     background-color: var(--light-color);
     color: var(--dark-color);
 }
 
-.parallax-group:nth-child(even) .section-heading,
-.parallax-group:nth-child(even) .sub-heading {
+.parallax-group:nth-child(odd) .section-heading,
+.parallax-group:nth-child(odd) .sub-heading {
     background-color: var(--dark-color);
     color: var(--light-color);
 }
