@@ -529,7 +529,7 @@ footer ul li {
 
 footer ul li a {
     color: var(--highlight-color);
-    font-size: 1.5rem;
+    font-size: calc(1.5rem + 0.5vw);
     transition: var(--transition);
     text-decoration: none;
 }
@@ -550,19 +550,19 @@ footer ul li a:hover {
 .footer-quote p {
     margin-bottom: 0.5rem;
     font-family: var(--accent-font);
-    font-size: 0.85rem;
+    font-size: calc(0.8rem + 0.5vw);
     color: var(--highlight-color);
 }
 
 .footer-quote cite {
-    font-size: 0.8rem;
+    font-size: calc(0.8rem + 0.5vw);
     color: var(--dark-color);
     font-style: normal;
 }
 
 /* Copyright text styling */
 .copyright-text {
-    font-size: 0.7rem;
+    font-size: calc(0.7rem + 0.5vw);
     margin: 1rem 0 0 0;
     color: var(--dark-color);
     text-align: center;
