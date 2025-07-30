@@ -122,6 +122,41 @@ h1 {
     color: var(--light-highlight-color);
 }
 
+/* Collapsible card styling */
+.collapsible-card {
+    color: var(--dark-color);
+    border: 1px solid var(--midtone-color);
+    box-shadow: 0 4px 6px var(--midtone-color);
+    overflow: hidden;
+    margin: 5px;
+    padding: 5px;
+    transition: var(--transition);
+}
+
+.collapsible-card:hover {
+    transform: var(--hover-transform);
+    background-color: var(--light-highlight-color);
+    border: 1px solid var(--light-highlight-color);
+    box-shadow: 0 8px 25px var(--light-highlight-color);
+
+}
+
+.collapsible-card-header {
+    font-size: 1.2em;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.collapsible-card-header > p {
+    flex: 1 0;
+}
+
+.collapsible-card-body {
+    padding: 15px;
+}
+
 /* Navbar styling */
 .navbar {
     background-color: var(--midtone-color);
@@ -404,6 +439,8 @@ h1 {
     color: var(--light-color);
     text-decoration: none;
 }
+
+/* Guide section */
 
 /* Media queries for medium device(tablets+) */
 @media screen and (min-width:768px) {}
