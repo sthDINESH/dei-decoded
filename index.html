@@ -47,8 +47,8 @@
             </div>
         </div>
     </nav>
-    <header>
-        <div class="parallax-wrapper">
+    <header class="parallax-wrapper">
+        <!-- <div class="parallax-wrapper"> -->
             <!-- Hero section -->
             <section class="parallax-group" id="hero">
                 <div class="parallax-layer top-layer" id="hero-banner">
@@ -72,10 +72,10 @@
                 <div class="parallax-layer base-layer" id="hero-image">
                 </div>
             </section>
-        </div>
+        <!-- </div> -->
     </header>
-    <main>
-        <div class="parallax-wrapper">
+    <main class="parallax-wrapper">
+        <!-- <div class="parallax-wrapper"> -->
             <!-- Concepts and definitions section -->
             <section class="parallax-group" id="concepts-section">
                 <div class="parallax-layer top-layer">
@@ -596,15 +596,74 @@
                     </div>
                 </div>
             </section>
-        </div>
+        <!-- </div> -->
     </main>
+    
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-5">
+                    Follow us on:
+                    <ul>
+                        <li>
+                            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Instagram (opens in new tab)">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Facebook (opens in new tab)">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Twitter (opens in new tab)">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="col-5">
+                    <blockquote class="footer-quote">
+                        <p>"Diversity is being invited to the party; inclusion is being asked to dance."</p>
+                        <cite>— Vernā Myers</cite>
+                    </blockquote>
+                </div>
+                <div class="col-11">
+                    <p class="copyright-text">&copy; 2025 DEI, Decoded! All rights reserved. | Building inclusive workplaces, one step at a time.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <!-- Font Awesome kit -->
     <script src="https://kit.fontawesome.com/a46681dd6d.js" crossorigin="anonymous"></script>
     <!-- Bootstrap 5 JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous">
+    </script>
+    <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
+    <!-- <script>
+        // document
+        //     .querySelectorAll(".navbar-collapse .nav-link")
+        //     .forEach((link) => {
+        //         link.addEventListener("click", function (e) {
+        //             let section = document.querySelector(e.target.getAttribute("href"));
+        //             if (section) {
+        //                 e.preventDefault(); // Prevent default anchor click behavior
+        //                 let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
+        //                 window.scroll({
+        //                     top: section.offsetTop - navbarHeight, // Adjust for navbar height
+        //                     behavior: "smooth",
+        //                 });
+        //                 document
+        //                     .querySelector(".navbar-collapse")
+        //                     .classList.remove("show"); // Collapse navbar
+        //             }
+        //         });
+        //     });
+    </script> -->
 </body>
 
 </html>
