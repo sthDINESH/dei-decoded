@@ -40,13 +40,6 @@ h1 {
     margin-bottom: 1rem;
 }
 
-
-.container,
-.row,
-.col-md-6 {
-    /* border: 1px solid black; */
-}
-
 .parallax-wrapper {
     height: 100vh;
     width: 100vw;
@@ -65,21 +58,51 @@ h1 {
     transform-style: preserve-3d;
 }
 
-.section-heading,
-.sub-heading {
-    font-size: 2rem;
-    font-weight: bold;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-    margin-bottom: 1.5rem;
-    background-color: var(--light-color);
+.parallax-group .container{
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 100%;
+    width: 100vw;
+}
+/* to help debug */
+.row{
+    /* border: 2px solid blue; */
+    justify-content: center;
+    align-items: center;
 }
 
-.section-heading{
-    /* min-width:100%; */
-    border-top: 2px solid var(--dark-color); 
-    color: var(--dark-color);
+.col-12{
+    /* border: 2px solid pink; */
 }
+/* to help debug */
+
+.section-heading{
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 5rem;
+    padding-bottom: 1.5rem;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 2.5rem;
+    color: var(--dark-color);
+    background-color: var(--light-color);
+    border-top: 2px solid var(--dark-color);
+    width: 100vw;
+    /* Make the subheading expand the full viewport width */
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+
+
+.section-heading h2{
+    margin:0;
+}
+
 .parallax-group:nth-child(even) {
     background-color: var(--light-color);
     color: var(--dark-color);
@@ -257,26 +280,6 @@ h1 {
 }
 
 /* Concepts section */
-#concepts-section .container {
-    /* border: 2px solid pink; */
-    height: 100%;
-    width: 100%;
-}
-
-#concepts-section .row {
-    /* border: 2px solid green; */
-}
-
-#concepts-section .row>* {
-    /* border: 2px solid blue; */
-}
-
-#concepts-section .container,
-#concepts-section .row {
-    /* height: 100%; */
-    /* width:100%; */
-}
-
 .concept-card .icon {
     width: 35px;
     height: 35px;
