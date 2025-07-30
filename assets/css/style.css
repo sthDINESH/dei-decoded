@@ -151,14 +151,25 @@ h2 {
     /* transition: all 0.3s ease; */
     transition: var(--transition);
 }
-
+.custom-btn:active,
+.custom-btn:focus,
 .custom-btn:hover {
     background-color: var(--light-highlight-color);
-    border-color: var(--highlight-color);
-    color: var(--light-color);
+    border-color: var(--light-highlight-color);
     transform: var(--hover-transform);
-    box-shadow: 0 4px 8px var(--highlight-color);
+    box-shadow: 0 4px 8px var(--light-highlight-color);
 }
+/* 
+ {
+    background-color: var(--light-highlight-color);
+    border-color: var(--light-highlight-color);
+    transform: var(--hover-transform);
+    box-shadow: 0 6px 12px var(--light-highlight-color);
+} */
+
+/* .custom-btn:focus {
+    box-shadow: 0 0 0 0.2rem rgba(188, 94, 85, 0.25);
+} */
 
 .icon {
     background-color: var(--highlight-color);
