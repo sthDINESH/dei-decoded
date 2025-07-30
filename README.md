@@ -69,7 +69,7 @@ The table below includes the opportunities for the project along with a score of
 | DEI guidance for cross-cultural collaboration  | 2 | 5 | could-have |  |
 | Key Takeaways, quick checklists, resources for further reading | 2 | 5 | could-have |  |
 | FAQ for common DEI questions | 1 | 5 | could-have |  |
-| Accessibility - Multi-language support, dark/light themes, font size adjustment | 3 | 1 | could-have |  | 
+| Accessibility - Multi-language support, dark/light themes, font size adjustment | 3 | 1 | wont-have |  | 
 
 ### Structure Plane
 
