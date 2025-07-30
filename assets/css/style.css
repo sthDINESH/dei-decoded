@@ -82,7 +82,7 @@ h2 {
 }
 
 .col-12 {
-    border: 2px solid pink;
+    /* border: 2px solid pink; */
 }
 
 /* to help debug */
@@ -108,6 +108,7 @@ h2 {
 .section-intro-text {
     margin-top: calc(0.1rem + 0.7vh);
     margin-bottom: calc(0.1rem + 0.7vh);
+    text-align: center;
 }
 
 .parallax-group:nth-child(even) {
@@ -186,7 +187,7 @@ h2 {
 }
 
 .collapsible-card-header {
-    font-size: 1.2em;
+    font-size: calc(0.8rem + 0.5vw);
     font-weight: bold;
     display: flex;
     align-items: baseline;
@@ -428,9 +429,19 @@ h2 {
 }
 
 /* Guide section */
+#guide-section .section-heading{
+    padding-top: calc(2rem + .5vh);
+}
+
+#guide-section .container {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .step-item {
     display: flex;
-    margin-bottom: 2rem;
+    margin-bottom: calc(0.8rem + 1vh) ;
     position: relative;
 }
 
