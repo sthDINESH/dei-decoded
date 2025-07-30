@@ -1,4 +1,7 @@
+
+/* ---------------------------------------------- */
 /* Import fonts from google fonts */
+/* ---------------------------------------------- */
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
 
 :root {
@@ -19,7 +22,9 @@
     --bs-carousel-indicator-active-bg: var(--dark-color);
 }
 
+/* ---------------------------------------------- */
 /* General styling */
+/* ---------------------------------------------- */
 * {
     margin: 0;
     padding: 0;
@@ -51,17 +56,13 @@ h2 {
     width: 100vw;
     overflow-x: hidden;
     min-height: 100vh;
-    /* perspective: 5px; */
 }
 
 .parallax-group {
     background-color: var(--dark-color);
     color: var(--light-color);
     min-height: 100vh;
-    /* Change from height to min-height */
     width: 100vw;
-    /* position: relative; */
-    /* transform-style: preserve-3d; */
 }
 
 .parallax-group .container {
@@ -72,9 +73,7 @@ h2 {
     width: 100vw;
 }
 
-/* to help debug */
 .row {
-    /* border: 2px solid blue; */
     justify-content: center;
     align-items: center;
 }
@@ -82,12 +81,6 @@ h2 {
 .row-100vw {
     width: 100vw;
 }
-
-.col-12 {
-    /* border: 2px solid pink; */
-}
-
-/* to help debug */
 
 .section-heading {
     font-weight: bold;
@@ -120,21 +113,6 @@ h2 {
 .parallax-layer {
     width: 100vw;
     min-height: 100%;
-    /* position: absolute; */
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
-
-.base-layer {
-    /* transform: translateZ(-5px) scale(2); */
-    /* z-index: 1; */
-}
-
-.top-layer {
-    /* transform: translateZ(0); */
-    /* z-index: 2; */
 }
 
 .custom-btn {
@@ -215,7 +193,9 @@ h2 {
     padding: 15px;
 }
 
+/* ---------------------------------------------- */
 /* Navbar styling */
+/* ---------------------------------------------- */
 .navbar {
     background-color: var(--midtone-color);
 }
@@ -242,7 +222,9 @@ h2 {
     font-weight: 600;
 }
 
+/* ---------------------------------------------- */
 /* Hero banner styling */
+/* ---------------------------------------------- */
 
 #hero-banner {
     width: 100vw;
@@ -273,7 +255,6 @@ h2 {
 #hero-heading,
 #hero-text {
     vertical-align: bottom;
-    /* border: 2px solid green; */
 }
 
 #hero-cta {
@@ -296,7 +277,9 @@ h2 {
 }
 
 
+/* ---------------------------------------------- */
 /* Concepts section */
+/* ---------------------------------------------- */
 .concept-card .icon {
     width: 30px;
     height: 30px;
@@ -320,7 +303,9 @@ h2 {
     min-height: 150px;
 }
 
+/* ---------------------------------------------- */
 /* Impact section styling */
+/* ---------------------------------------------- */
 #impact-section .container {
     display: flex;
     flex-direction: column;
@@ -417,7 +402,9 @@ h2 {
     margin-bottom: 0.8rem;
 }
 
+/* ---------------------------------------------- */
 /* Guide section */
+/* ---------------------------------------------- */
 #guide-section .section-heading {
     padding-top: 2rem;
 }
@@ -474,7 +461,79 @@ h2 {
     padding-right: 0.5rem;
 }
 
+/* ---------------------------------------------- */
+/* Footer styling */
+/* ---------------------------------------------- */
+footer {
+    background-color: var(--midtone-color);
+    color: var(--dark-color);
+    padding: 2rem 0;
+    margin-top: 0;
+    /* Ensure no sticky behavior */
+    position: relative;
+}
+
+/* Social media icons styling */
+footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 0.8rem;
+    justify-content: flex-start;
+    margin-top: 0.5rem;
+}
+
+footer ul li {
+    margin: 0;
+}
+
+footer ul li a {
+    color: var(--highlight-color);
+    font-size: calc(1.5rem + 0.5vw);
+    transition: var(--transition);
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    color: var(--light-highlight-color);
+    transform: var(--hover-transform);
+}
+
+/* Footer quote styling */
+.footer-quote {
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.footer-quote p {
+    margin-bottom: 0.5rem;
+    font-family: var(--accent-font);
+    font-size: calc(0.8rem + 0.5vw);
+    color: var(--highlight-color);
+}
+
+.footer-quote cite {
+    font-size: calc(0.8rem + 0.5vw);
+    color: var(--dark-color);
+    font-style: normal;
+}
+
+.footer hr {
+    background-color: var(--dark-color);
+}
+
+/* Copyright text styling */
+.copyright-text {
+    font-size: calc(0.7rem + 0.5vw);
+    margin: 1rem 0 0 0;
+    color: var(--dark-color);
+    text-align: center;
+}
+/* ---------------------------------------------- */
 /* Media queries for medium device(tablets+) */
+/* ---------------------------------------------- */
 @media screen and (min-width:768px) {
     body {
         font-size: calc(0.8rem + 0.5vw);
@@ -583,7 +642,9 @@ h2 {
 
 }
 
+/* ---------------------------------------------- */
 /* Media queries for Extra large devices(laptops, larger tablets onwards) */
+/* ---------------------------------------------- */
 @media screen and (min-width:1200px) {
 
     body {
@@ -644,75 +705,4 @@ h2 {
         margin-bottom: 1.5rem;
     }
 
-}
-
-/* Footer styling */
-footer {
-    background-color: var(--midtone-color);
-    color: var(--dark-color);
-    padding: 2rem 0;
-    /* text-align: center; */
-    margin-top: 0;
-    /* Ensure no sticky behavior */
-    position: relative;
-    /* Normal document flow */
-}
-
-/* Social media icons styling */
-footer ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    gap: 0.8rem;
-    justify-content: flex-start;
-    margin-top: 0.5rem;
-}
-
-footer ul li {
-    margin: 0;
-}
-
-footer ul li a {
-    color: var(--highlight-color);
-    font-size: calc(1.5rem + 0.5vw);
-    transition: var(--transition);
-    text-decoration: none;
-}
-
-footer ul li a:hover {
-    color: var(--light-highlight-color);
-    transform: var(--hover-transform);
-}
-
-/* Footer quote styling */
-.footer-quote {
-    font-style: italic;
-    margin: 0;
-    padding: 0;
-    border: none;
-}
-
-.footer-quote p {
-    margin-bottom: 0.5rem;
-    font-family: var(--accent-font);
-    font-size: calc(0.8rem + 0.5vw);
-    color: var(--highlight-color);
-}
-
-.footer-quote cite {
-    font-size: calc(0.8rem + 0.5vw);
-    color: var(--dark-color);
-    font-style: normal;
-}
-
-.footer hr {
-    background-color: var(--dark-color);
-}
-
-/* Copyright text styling */
-.copyright-text {
-    font-size: calc(0.7rem + 0.5vw);
-    margin: 1rem 0 0 0;
-    color: var(--dark-color);
-    text-align: center;
 }
