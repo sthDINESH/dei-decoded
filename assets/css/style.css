@@ -111,6 +111,18 @@ h1 {
     /* z-index: 2; */
 }
 
+.icon{
+    background-color: var(--highlight-color);
+    color: var(--dark-color);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
 .toggle-icon {
     color: var(--highlight-color);
     transition: transform 0.3s ease;
@@ -129,7 +141,7 @@ h1 {
     box-shadow: 0 4px 6px var(--midtone-color);
     overflow: hidden;
     margin: 0.5rem;
-    padding: 1rem;
+    padding: 0.5rem;
     transition: var(--transition);
 }
 
@@ -145,12 +157,12 @@ h1 {
     font-size: 1.2em;
     font-weight: bold;
     display: flex;
-    align-items: center;
-    /* justify-content: space-between; */
+    align-items: baseline;
 }
 
 .collapsible-card-header > p {
     flex: 1 0;
+    margin: 0;
 }
 
 .collapsible-card-body {
@@ -265,63 +277,10 @@ h1 {
     /* width:100%; */
 }
 
-#concepts-section .concept-card {
-    color: var(--dark-color);
-    border: 1px solid var(--midtone-color);
-    box-shadow: 0 4px 6px var(--midtone-color);
-    overflow: hidden;
-    margin: 5px;
-    padding: 5px;
-    transition: var(--transition);
-}
-
-#concepts-section .concept-card:hover {
-    transform: var(--hover-transform);
-    background-color: var(--light-highlight-color);
-    border: 1px solid var(--light-highlight-color);
-    box-shadow: 0 8px 25px var(--light-highlight-color);
-
-}
-
-#concepts-section .concept-header {
-    font-size: 1.2em;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    /* justify-content: space-between; */
-}
-
-#concepts-section .concept-header>p {
-    flex: 1 0;
-}
-
-.icon{
-    background-color: var(--highlight-color);
-    color: var(--dark-color);
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.2rem;
-}
-
-#concepts-section .concept-icon {
-    background-color: var(--highlight-color);
-    color: var(--dark-color);
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 1rem;
-    font-size: 1.2rem;
-}
-
-#concepts-section .concept-body {
-    padding: 15px;
+.concept-card .icon {
+    width: 35px;
+    height: 35px;
+    margin-right: 0.5rem;
 }
 
 /* Impact section styling */
