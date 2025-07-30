@@ -28,7 +28,6 @@
 
 body {
     font-family: var(--primary-font);
-    /* font-size: calc(0.8rem + 0.5vw); */
     font-size: 0.8rem;
 }
 
@@ -39,14 +38,12 @@ h3 {
 }
 
 h1 {
-    /* font-size: calc(3rem + 0.8vw); */
     font-size: 1.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 h2 {
     font-size: 1.2rem;
-    /* font-size: calc(2rem + 3vw); */
     margin: 0;
 }
 
@@ -60,8 +57,9 @@ h2 {
 .parallax-group {
     background-color: var(--dark-color);
     color: var(--light-color);
-    min-height: 100vh; /* Change from height to min-height */
-    width: 100%;
+    min-height: 100vh;
+    /* Change from height to min-height */
+    width: 100vw;
     /* position: relative; */
     /* transform-style: preserve-3d; */
 }
@@ -71,7 +69,7 @@ h2 {
     margin-right: 0;
     padding-left: 0;
     padding-right: 0;
-    width: 100%;
+    width: 100vw;
 }
 
 /* to help debug */
@@ -79,6 +77,10 @@ h2 {
     /* border: 2px solid blue; */
     justify-content: center;
     align-items: center;
+}
+
+.row-100vw {
+    width: 100vw;
 }
 
 .col-12 {
@@ -89,10 +91,8 @@ h2 {
 
 .section-heading {
     font-weight: bold;
-    /* padding-top: calc(5rem + .5vh); */
     padding-top: 2rem;
     padding-bottom: 1.5rem;
-    /* margin-bottom: calc(2rem + 2vh); */
     margin-bottom: 1rem;
     color: var(--dark-color);
     background-color: var(--light-color);
@@ -102,8 +102,6 @@ h2 {
 
 .section-intro-text p {
     margin-top: 0.1rem;
-    /* margin-top: calc(0.1rem + 0.7vh); */
-    /* margin-bottom: calc(2rem + 2vh); */
     margin-bottom: 0.2rem;
     text-align: center;
 }
@@ -113,14 +111,14 @@ h2 {
     color: var(--dark-color);
 }
 
-.parallax-group:nth-child(odd) .section-heading{
+.parallax-group:nth-child(odd) .section-heading {
     background-color: var(--dark-color);
     color: var(--light-color);
     border-top: 2px solid var(--light-color);
 }
 
 .parallax-layer {
-    width: 100%;
+    width: 100vw;
     min-height: 100%;
     /* position: absolute; */
     top: 0;
@@ -147,6 +145,7 @@ h2 {
     transition: var(--transition);
     font-size: 0.8rem;
 }
+
 .custom-btn:active,
 .custom-btn:focus,
 .custom-btn:hover {
@@ -201,7 +200,6 @@ h2 {
 }
 
 .collapsible-card-header {
-    /* font-size: calc(0.8rem + 0.5vw); */
     font-size: 0.8rem;
     font-weight: bold;
     display: flex;
@@ -267,6 +265,7 @@ h2 {
 
 #hero-banner .row {
     height: 50vh;
+    width: 100vw;
     display: flex;
     align-items: flex-end;
 }
@@ -280,14 +279,11 @@ h2 {
 #hero-cta {
     display: flex;
     justify-content: center;
-    /* margin-top: calc(1rem + 0.5vh); */
     margin-top: 0.5rem;
-    /* margin-bottom: calc(1rem + 0.5vh); */
     margin-bottom: 0.5rem;
 }
 
-#hero-text p:not(.lead){
-    /* margin-bottom: calc(0.2rem + 0.5vh) ; */
+#hero-text p:not(.lead) {
     margin-bottom: 0.5rem;
     margin-top: 0.5rem;
 }
@@ -295,7 +291,6 @@ h2 {
 #hero-text .lead {
     font-family: var(--accent-font);
     font-style: italic;
-    /* margin-bottom: calc(0.5rem + 0.5vh); */
     margin-bottom: 0.5rem;
     font-size: 0.8rem;
 }
@@ -309,6 +304,7 @@ h2 {
 }
 
 #concepts-section .container {
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -320,7 +316,7 @@ h2 {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 100vw;
     min-height: 150px;
 }
 
@@ -423,7 +419,6 @@ h2 {
 
 /* Guide section */
 #guide-section .section-heading {
-    /* padding-top: calc(2rem + .5vh); */
     padding-top: 2rem;
 }
 
@@ -440,7 +435,6 @@ h2 {
 
 .step-item {
     display: flex;
-    /* margin-bottom: calc(0.8rem + 1vh); */
     margin-bottom: 0.8rem;
     position: relative;
 }
@@ -482,9 +476,50 @@ h2 {
 
 /* Media queries for medium device(tablets+) */
 @media screen and (min-width:768px) {
-    #hero-heading h1 {
+    body {
+        font-size: calc(0.8rem + 0.5vw);
+    }
+
+    .custom-btn {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+
+    h1 {
         font-size: calc(3.3rem + 1.5vw);
-        /* font-size: 5rem; */
+    }
+
+    h2 {
+        font-size: calc(3rem + 1vw);
+    }
+
+    .icon {
+        width: 50px;
+        height: 50px;
+        font-size: 1rem
+    }
+
+    .section-intro-text p {
+        margin-top: calc(0.1rem + 0.7vh);
+        margin-bottom: calc(0.1rem + 0.7vh);
+    }
+
+    .concept-card .icon {
+        width: 50px;
+        height: 50px;
+        font-size: 1.5rem;
+    }
+
+    .collapsible-card {
+        padding: 1rem;
+    }
+
+    .collapsible-card-header {
+        font-size: calc(1rem + 0.2vw);
+    }
+
+    #hero-text .lead {
+        font-size: calc(0.8rem + 1.2vw);
     }
 
     #concepts-section .section-intro-text {
@@ -501,6 +536,114 @@ h2 {
         margin-top: calc(0.5rem + 0.7vh);
         margin-bottom: calc(0.5rem + 0.7vh);
     }
+
+    .step-item {
+        margin-bottom: calc(0.8rem + 1vh);
+    }
+
+    .step-item:not(:last-child)::after {
+        left: 25px;
+        top: 25px;
+        width: 3px;
+        height: calc(100% + 25px);
+    }
+
+    .carousel {
+        margin: 2rem 0;
+    }
+
+    .carousel-content {
+        padding: 2rem 1rem;
+        min-height: 400px;
+    }
+
+    .carousel-content p {
+        margin: 1rem;
+    }
+
+    /* Carousel card styling */
+
+    .carousel-content .card-body {
+        padding: 1rem;
+    }
+
+    .carousel-content .icon.impact-icon {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .carousel-content .card-title {
+        margin-bottom: 0.5rem;
+    }
+
+    .carousel-content .card-text {
+        line-height: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+}
+
+/* Media queries for Extra large devices(laptops, larger tablets onwards) */
+@media screen and (min-width:1200px) {
+
+    body {
+        font-size: calc(1.2rem + 0.2vw);
+    }
+
+    h1 {
+        font-size: calc(5rem + 1.5vw);
+    }
+
+    .custom-btn {
+        font-size: 2rem;
+    }
+
+    .section-heading {
+        padding-top: calc(4rem + .5vh);
+        padding-bottom: 1.5rem;
+        margin-bottom: calc(2rem + 2vh);
+    }
+
+    .icon {
+        width: 70px;
+        height: 70px;
+        font-size: 2rem
+    }
+
+    .concept-card .icon {
+        width: 70px;
+        height: 70px;
+        font-size: 2rem;
+    }
+
+    .collapsible-card {
+        padding: 1.2rem;
+    }
+
+    .collapsible-card-header {
+        font-size: calc(1.5rem + 0.15vw);
+    }
+
+    #concepts-image {
+        min-height: 25vh;
+    }
+
+    .step-item {
+        margin-bottom: calc(2rem + 1vh);
+    }
+
+    .step-item:not(:last-child)::after {
+        left: 35px;
+        top: 35px;
+        width: 4px;
+        height: calc(100% + 35px);
+    }
+
+    .carousel-content .card-text {
+        line-height: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
 }
 
 /* Footer styling */
@@ -509,8 +652,10 @@ footer {
     color: var(--dark-color);
     padding: 2rem 0;
     /* text-align: center; */
-    margin-top: 0; /* Ensure no sticky behavior */
-    position: relative; /* Normal document flow */
+    margin-top: 0;
+    /* Ensure no sticky behavior */
+    position: relative;
+    /* Normal document flow */
 }
 
 /* Social media icons styling */
@@ -571,6 +716,3 @@ footer ul li a:hover {
     color: var(--dark-color);
     text-align: center;
 }
-
-/* Media queries for Extra large devices(laptops, larger tablets onwards) */
-@media screen and (min-width:992px) {}
