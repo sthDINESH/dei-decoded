@@ -560,6 +560,10 @@ footer ul li a:hover {
     font-style: normal;
 }
 
+.footer hr {
+    background-color: var(--dark-color);
+}
+
 /* Copyright text styling */
 .copyright-text {
     font-size: calc(0.7rem + 0.5vw);
