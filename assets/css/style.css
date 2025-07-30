@@ -134,12 +134,12 @@ h2 {
 
 .base-layer {
     /* transform: translateZ(-5px) scale(2); */
-    /* z-index: 1; */
+    z-index: 1;
 }
 
 .top-layer {
     /* transform: translateZ(0); */
-    /* z-index: 2; */
+    z-index: 2;
 }
 
 .custom-btn {
@@ -294,13 +294,18 @@ h2 {
 #hero-cta {
     display: flex;
     justify-content: center;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-top: calc(1rem + 0.5vh);
+    margin-bottom: calc(1rem + 0.5vh);
+}
+
+#hero-text p:not(.lead){
+    margin-bottom: calc(0.2rem + 0.5vh) ;
 }
 
 #hero-text .lead {
     font-family: var(--accent-font);
     font-style: italic;
+    margin-bottom: calc(0.5rem + 0.5vh);
 }
 
 
