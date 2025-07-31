@@ -15,6 +15,19 @@ View the deployed website [dei-decoded](https://sthdinesh.github.io/dei-decoded/
 - "Why is DEI important?" section : Benefits of DEI practices with statistics.
 - "5 Steps to Build Inclusive Spaces" section : Guidance to implement DEI practices listed as actionable steps
 
+### AI Usage within the Project
+AI technologies used:
+- GitHub Copilot
+- Microsoft Copilot
+
+Usage:
+- Planning - It was used to identify target users and user stories for the website.
+- Content generation - It was used to generate the text contents within the webpage.
+- Bootstrap 5 component insertion - It was used to insert Bootstrap 5 components in the codebase. This was then manually refined to meet the website needs.
+- Repetitive tasks - It was used to complete repeated tasks like applying CSS styles to remaining components when one of the elements within a bootstrap component was manually styled. 
+- Links/Aria labels - It was used to populate the external links with aria-labels for accessibility.
+- Debug/Technical assistance- It was used to debug certain issues within the code or provide explanations HTML elements/CSS properties.
+- Code generation - It was used to generate the code for footer section of the webpage. The details of the styling were then manually refined.
 
 
 ## User Experience Design
@@ -144,4 +157,23 @@ Fonts for the website are sourced from [Google Fonts](https://fonts.google.com/)
 ![Typography](assets/images/typography.png)
 
 
+## Technologies used
 
+1. Languages
+- HTML5
+- CSS3
+2. Frameworks
+- Bootstrap5
+3. Libraries
+- [Font Awesome](https://fontawesome.com/) - used for the iconography of the website
+- [Google Fonts](https://fonts.google.com/) - used for website typography
+4. Programs
+- Git - For version control
+- GitHub - For external repository
+- GitHub Pages - For deployment
+- Google Chrome Dev Tools - To troubleshoot, test features and solve issues with responsiveness and styling
+- [Favicon.io](https://favicon.io/) - used to generate the website favicon
+- [draw.io](https://www.draw.io/) - used for creating wireframes
+- [Pexels](https://www.pexels.com/) - used for sourcing free stock images for the website
+- [Freeconvert](https://www.freeconvert.com/image-converter) - for file format conversion
+- 
