@@ -57,15 +57,15 @@ The table below includes the opportunities for the project along with a score of
 
 | Feature | Importance | Viability | | Delivered |
 | --- | --- | --- | --- | --- |
-| Mobile-first responsive design using CSS Grid/Flexbox | 5 | 5 | must-have |  |
-| Logical section organization with visual breaks | 5 | 5 | must-have |  |
-| Sticky navigation with jump-to-section links | 5 | 5 | must-have |  | 
-| Proper ARIA labels and semantic HTML | 4 | 4 | must-have |  |
-| DEI key terms with beginner-friendly explanations | 5 | 5 | must-have |  |
-| Actionable Guide for inclusive practices | 5 | 5 | must-have | |
-| Why DEI matters section with statistics/benefits | 4 | 5 | must-have |  |
+| Mobile-first responsive design using CSS Grid/Flexbox | 5 | 5 | must-have | &#x2611; |
+| Logical section organization with visual breaks | 5 | 5 | must-have | &#x2611; |
+| Sticky navigation with jump-to-section links | 5 | 5 | must-have | &#x2611; | 
+| Proper ARIA labels and semantic HTML | 4 | 4 | must-have | &#x2611; |
+| DEI key terms with beginner-friendly explanations | 5 | 5 | must-have | &#x2611; |
+| Actionable Guide for inclusive practices | 5 | 5 | must-have | &#x2611; |
+| Why DEI matters section with statistics/benefits | 4 | 5 | must-have | &#x2611; |
 | Tailored DEI guidance for specific contexts  | 3 | 5 | should-have |  |
-| Subtle card hovers and button interactions for UX improvement | 3 | 4 | should-have |  |
+| Subtle card hovers and button interactions for UX improvement | 3 | 4 | should-have | &#x2611; |
 | DEI guidance for cross-cultural collaboration  | 2 | 5 | could-have |  |
 | Key Takeaways, quick checklists, resources for further reading | 2 | 5 | could-have |  |
 | FAQ for common DEI questions | 1 | 5 | could-have |  |
@@ -117,7 +117,7 @@ For user interaction, the website will include:
 ### Skeleton Plane
 
 #### Wireframes
-
+![Wireframes for mobile and tablet](assets/images/wireframes-dei-website.png)
 
 ### Surface plane
 
