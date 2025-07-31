@@ -178,6 +178,7 @@ Fonts for the website are sourced from [Google Fonts](https://fonts.google.com/)
 - [Freeconvert](https://www.freeconvert.com/image-converter) - for file format conversion
 - [Am I responsive](https://ui.dev/amiresponsive) - To create the responsive images of the website on different devices
 - [Autoprefixer CSS online](https://autoprefixer.github.io/) - To parse CSS and add vendor prefixes
+- [colrmind.io](http://colormind.io/) - For color palette generation
 
 ## Deployment
 GitHub pages was used for the deployment of the website using the following steps:
