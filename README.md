@@ -194,7 +194,8 @@ For user interaction, the website will include:
 #### Colour Scheme
 
 The website uses color palette generated using [colrmind.io](http://colormind.io/).
-![Color palette](assets/images/color-palette.png)
+![Color palette](assets/images/color-palette-updated.png)
+
 
 #### Typography
 

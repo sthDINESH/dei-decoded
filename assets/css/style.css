@@ -19,7 +19,7 @@
     --dark-color: #2E2A26;
     --light-color: #FDF7F2;
     --midtone-color: #BEB6AE;
-    --highlight-color: #BC5E55;
+    --highlight-color: #873E36;
     --light-highlight-color: #E3A48F;
 
     /* Transitions */
@@ -129,7 +129,7 @@ h2 {
 .custom-btn {
     background-color: var(--highlight-color);
     border-color: var(--highlight-color);
-    color: var(--dark-color);
+    color: var(--light-color);
     border-radius: 0;
     -webkit-transition: var(--transition);
     -o-transition: var(--transition);
@@ -151,7 +151,7 @@ h2 {
 
 .icon {
     background-color: var(--highlight-color);
-    color: var(--dark-color);
+    color: var(--light-color);
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -332,6 +332,7 @@ h2 {
     width: 30px;
     height: 30px;
     margin-right: 0.5rem;
+    color: var(--light-color);
 }
 
 #concepts-section .container {
@@ -535,6 +536,8 @@ h2 {
     -ms-flex-negative: 0;
     flex-shrink: 0;
     z-index: 2;
+    color: var(--light-color);
+    font-weight: bold;
 }
 
 .step-content {
@@ -615,7 +618,8 @@ footer ul li a:hover {
     margin-bottom: 0.5rem;
     font-family: var(--accent-font);
     font-size: calc(0.8rem + 0.5vw);
-    color: var(--highlight-color);
+    color: var(--dark-color);
+    font-weight: bold;
 }
 
 .footer-quote cite {
