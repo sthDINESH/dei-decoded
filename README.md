@@ -15,6 +15,13 @@ View the deployed website [dei-decoded](https://sthdinesh.github.io/dei-decoded/
 - "Why is DEI important?" section : Benefits of DEI practices with statistics.
 - "5 Steps to Build Inclusive Spaces" section : Guidance to implement DEI practices listed as actionable steps
 
+### Future enhancements
+- Section with tailored DEI guidance for specific contexts
+- Section on DEI guidance for cross-cultural collaboration
+- Section on Key Takeaways, quick checklists, resources for further reading
+- FAQ section for common DEI questions
+- Improvements for accessibility - Multi-language support, dark/light themes, font size adjustment
+
 ### AI Usage within the Project
 AI technologies used:
 - GitHub Copilot
