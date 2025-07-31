@@ -205,6 +205,16 @@ GitHub pages was used for the deployment of the website using the following step
 [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator) was used to validate the CSS for the webpage.
 ![CSS Validation Screenshot](assets/images/W3C-validation-css.png)
 
+3. Lighthouse
+Lighthouse in Chrome Dev tools was used to assess Performance, Accessibility, Best practices and SEO.
+
+- Desktop Test Results
+![Lighthouse Desktop Results](assets/images/lighthouse-desktop.png)
+
+- Mobile Test Results
+![Lighthouse Mobile Results](assets/images/lighthouse-mobile.png)
+
+
 ## Credits
 1. Content
 
