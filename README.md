@@ -25,6 +25,7 @@ View the deployed website [dei-decoded](https://sthdinesh.github.io/dei-decoded/
 
 
 ### Future enhancements
+- Bootstrap scrollspy to indicate active section in navigation bar
 - Section with tailored DEI guidance for specific contexts
 - Section on DEI guidance for cross-cultural collaboration
 - Section on Key Takeaways, quick checklists, resources for further reading
