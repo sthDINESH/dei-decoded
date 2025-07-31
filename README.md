@@ -3,10 +3,10 @@
 ## Table of contents
 
 - [Introduction](#introduction)
-- [Features of the website](#features-of-the-website)
-- [Website Preview](#website-preview)
-- [Future enhancements](#future-enhancements)
-- [AI Usage within the Project](#ai-usage-within-the-project)
+  - [Features of the website](#features-of-the-website)
+  - [Website Preview](#website-preview)
+  - [Future enhancements](#future-enhancements)
+  - [AI Usage within the Project](#ai-usage-within-the-project)
 - [User Experience Design](#user-experience-design)
   - [Strategy Plane](#strategy-plane)
     - [Project goals](#project-goals)
