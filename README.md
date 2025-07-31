@@ -15,6 +15,15 @@ View the deployed website [dei-decoded](https://sthdinesh.github.io/dei-decoded/
 - "Why is DEI important?" section : Benefits of DEI practices with statistics.
 - "5 Steps to Build Inclusive Spaces" section : Guidance to implement DEI practices listed as actionable steps
 
+### Website Preview
+| Section | Mobile Preview(iphone 14 Pro) | Tablet(iPad Pro) |
+|----------|----------|----------|
+| Hero   | ![iPhone 14 Pro - Hero Section](assets/images/previews/iphone-14-pro/hero.png)    | ![iPad Pro - Hero Section](assets/images/previews/ipad-pro/hero.png)   |
+| What is DEI?   | ![iPhone 14 Pro - "What is DEI?"](assets/images/previews/iphone-14-pro/key-concepts.png)   | ![iPad Pro - "What is DEI?"](assets/images/previews/ipad-pro/key-concepts.png)   |
+| Why is DEI important?    | ![iPhone 14 Pro - "Why is DEI important?"](assets/images/previews/iphone-14-pro/impact.png)    | [![iPad Pro - "Why is DEI important?"](assets/images/previews/ipad-pro/impact.png)](assets/images/previews/ipad-pro/impact.png) |
+| 5 Steps to Build Inclusive Spaces & Footer  |![iPhone 14 Pro - "5 Steps to Build Inclusive Spaces"](assets/images/previews/iphone-14-pro/steps-and-footer.png) | [![iPad Pro - "5 Steps to Build Inclusive Spaces & Footer"](assets/images/previews/ipad-pro/steps-and-footer.png)](assets/images/previews/ipad-proi/steps-and-footer.png) |
+
+
 ### Future enhancements
 - Section with tailored DEI guidance for specific contexts
 - Section on DEI guidance for cross-cultural collaboration
