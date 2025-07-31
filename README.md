@@ -1,5 +1,32 @@
 # DEI Decoded
 ![DEI Decoded Overview](assets/images/website-overview.png)
+## Table of contents
+
+- [Introduction](#introduction)
+- [Features of the website](#features-of-the-website)
+- [Website Preview](#website-preview)
+- [Future enhancements](#future-enhancements)
+- [AI Usage within the Project](#ai-usage-within-the-project)
+- [User Experience Design](#user-experience-design)
+  - [Strategy Plane](#strategy-plane)
+    - [Project goals](#project-goals)
+    - [Target Users](#target-users)
+    - [User stories](#user-stories)
+  - [Scope Plane](#scope-plane)
+    - [Features](#features)
+  - [Structure Plane](#structure-plane)
+    - [Interaction design](#interaction-design)
+    - [Information Architecture](#information-architecture)
+  - [Skeleton Plane](#skeleton-plane)
+    - [Wireframes](#wireframes)
+  - [Surface plane](#surface-plane)
+    - [Colour Scheme](#colour-scheme)
+    - [Typography](#typography)
+- [Technologies used](#technologies-used)
+- [Deployment](#deployment)
+- [Testing and Validation](#testing-and-validation)
+- [Credits](#credits)
+
 ## Introduction
 "DEI Decoded" is a website designed as an accessible and beginner-friendly resource to help individuals and professionals better understand Diversity, Equity and Inclusion(DEI) in workplace and educational setttings. It aims to provide clear, beginner-friendly explanations to help grasp the core concepts of DEI, and provides practical tips and actionable strategies to help create inclusive spaces. 
 
