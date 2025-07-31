@@ -177,6 +177,7 @@ Fonts for the website are sourced from [Google Fonts](https://fonts.google.com/)
 - [Pexels](https://www.pexels.com/) - used for sourcing free stock images for the website
 - [Freeconvert](https://www.freeconvert.com/image-converter) - for file format conversion
 - [Am I responsive](https://ui.dev/amiresponsive) - To create the responsive images of the website on different devices
+- [Autoprefixer CSS online](https://autoprefixer.github.io/) - To parse CSS and add vendor prefixes
 
 ## Deployment
 GitHub pages was used for the deployment of the website using the following steps:
@@ -193,4 +194,5 @@ GitHub pages was used for the deployment of the website using the following step
 
 2. CSS
 
-[]
+[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator) was used to validate the CSS for the webpage.
+![CSS Validation Screenshot](assets/images/W3C-validation-css.png)
