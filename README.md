@@ -1,5 +1,6 @@
 # DEI Decoded
 
+## Introduction
 "DEI Decoded" is a website designed as an accessible and beginner-friendly resource to help individuals and professionals better understand Diversity, Equity and Inclusion(DEI) in workplace and educational setttings. It aims to provide clear, beginner-friendly explanations to help grasp the core concepts of DEI, and provides practical tips and actionable strategies to help create inclusive spaces. 
 
 The website is primarily targeted towards beginners and those seeking foundational knowledge on DEI. 
@@ -7,8 +8,14 @@ It also aims to serve professional in leadership roles or individuals and busine
 
 View the deployed website [dei-decoded](https://sthdinesh.github.io/dei-decoded/).
 
+### Features of the website
+- Navigation: Navigation bar for easy access to all sections.
+- Hero section: Brief introduction to the site and its purpose.
+- "What is DEI?" section : Clear definitions of concepts related to DEI.
+- "Why is DEI important?" section : Benefits of DEI practices with statistics.
+- "5 Steps to Build Inclusive Spaces" section : Guidance to implement DEI practices listed as actionable steps 
 
-## User Experience
+## User Experience Design
 
 ### Strategy Plane
 
