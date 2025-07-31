@@ -176,4 +176,11 @@ Fonts for the website are sourced from [Google Fonts](https://fonts.google.com/)
 - [draw.io](https://www.draw.io/) - used for creating wireframes
 - [Pexels](https://www.pexels.com/) - used for sourcing free stock images for the website
 - [Freeconvert](https://www.freeconvert.com/image-converter) - for file format conversion
-- 
+- [Am I responsive](https://ui.dev/amiresponsive) - To create the responsive images of the website on different devices
+
+## Deployment
+GitHub pages was used for the deployment of the website using the following steps:
+1. Go to the repository’s [Settings > Pages](https://github.com/sthDINESH/dei-decoded/settings/pages).
+3. Under “Source”, select the branch (`main`) and `/root` folder.
+4. Click “Save” to enable GitHub Pages.
+5. Access the deployed website via the provided [GitHub Pages URL](https://sthdinesh.github.io/dei-decoded/). 
