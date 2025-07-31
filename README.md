@@ -183,4 +183,14 @@ GitHub pages was used for the deployment of the website using the following step
 1. Go to the repository’s [Settings > Pages](https://github.com/sthDINESH/dei-decoded/settings/pages).
 3. Under “Source”, select the branch (`main`) and `/root` folder.
 4. Click “Save” to enable GitHub Pages.
-5. Access the deployed website via the provided [GitHub Pages URL](https://sthdinesh.github.io/dei-decoded/). 
+5. Access the deployed website via the provided [GitHub Pages URL](https://sthdinesh.github.io/dei-decoded/).
+
+## Testing and Validation
+1. HTML
+
+[W3C Markup Validation Service](https://validator.w3.org/) was used to validate the HTML of the webpage.
+![HTML Validation Screenshot](assets/images/W3C-validation.png)
+
+2. CSS
+
+[]
