@@ -63,6 +63,7 @@ View the deployed website [dei-decoded](https://sthdinesh.github.io/dei-decoded/
 AI technologies used:
 - GitHub Copilot
 - Microsoft Copilot
+- Chat GPT
 
 Usage:
 - Planning - It was used to identify target users and user stories for the website.
@@ -283,6 +284,8 @@ Methods taught in Code Institute walkthrough projects were followed for the proj
 
 The images for the hero section and "What is DEI?" section was taken from the stock images available in [Pexels](https://www.pexels.com/).
 The file format was converted using [Freeconvert](https://www.freeconvert.com/image-converter) 
+
+Chat GPT was used to generate the logo for the website.
 
 3. Iconography
 
