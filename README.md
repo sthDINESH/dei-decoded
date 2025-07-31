@@ -214,6 +214,22 @@ Lighthouse in Chrome Dev tools was used to assess Performance, Accessibility, Be
 - Mobile Test Results
 ![Lighthouse Mobile Results](assets/images/lighthouse-mobile.png)
 
+4. Responsiveness tests
+
+Chrome Dev tool was used to test the responsiveness of the design throughout the development process for different device sizes.
+
+The testing was done for the deployed website as well.
+
+Snapshot as captured from [Am I responsive](https://ui.dev/amiresponsive).
+![DEI Decoded Overview](assets/images/website-overview.png)
+
+5. Testing section links/Buttons
+
+- Section links within the navigation bar have been tested and are working.
+- Buttons to external have been tested - they open external webpages in new tabs.
+- Call-to-Action button in Hero section links to the "What is DEI?" section.
+- Logo in Navigation bar reloads the index page.
+- Links in Navigation bar collapses into a hamburger button in mobile devices. In mobile view, Javascript added closes the navigation bar back after clicking in the link.
 
 ## Credits
 1. Content
@@ -234,5 +250,9 @@ The file format was converted using [Freeconvert](https://www.freeconvert.com/im
 3. Iconography
 
 [Font Awesome](https://fontawesome.com/) was used to generate the icons used in the website.
+
+4. Javascript
+
+The website uses the Javascript code from "Boardwalk Games" walkthrough project to close the navigation bar after a link is clicked when in hamburger view.
 
 
