@@ -250,7 +250,7 @@ Lighthouse in Chrome Dev tools was used to assess Performance, Accessibility, Be
 ![Lighthouse Desktop Results](assets/images/lighthouse-desktop.png)
 
 - Mobile Test Results
-![Lighthouse Mobile Results](assets/images/lighthouse-mobile.png)
+![Lighthouse Mobile Results](assets/images/lighthouse-mobile-fixed.png)
 
 4. Responsiveness tests
 
