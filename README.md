@@ -197,3 +197,25 @@ GitHub pages was used for the deployment of the website using the following step
 
 [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator) was used to validate the CSS for the webpage.
 ![CSS Validation Screenshot](assets/images/W3C-validation-css.png)
+
+## Credits
+1. Content
+
+Past Code Institute projects were used as inspirations for the project.
+- [Welcome to Heartfelt](https://dav-noble.github.io/project-1-heartfelt/)
+- [DEI](https://pezz-x.github.io/Project-1-Diversity-and-Inclusion/)
+
+AI(GitHub Copilot and Microsoft copilot) was used to generate the content for different sections of the webpage.
+
+Methods taught in Code Institute walkthrough projects were followed for the project completion.
+
+2. Media
+
+The images for the hero section and "What is DEI?" section was taken from the stock images available in [Pexels](https://www.pexels.com/).
+The file format was converted using [Freeconvert](https://www.freeconvert.com/image-converter) 
+
+3. Iconography
+
+[Font Awesome](https://fontawesome.com/) was used to generate the icons used in the website.
+
+
