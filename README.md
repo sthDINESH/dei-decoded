@@ -5,6 +5,9 @@
 The website is primarily targeted towards beginners and those seeking foundational knowledge on DEI. 
 It also aims to serve professional in leadership roles or individuals and businesses looking for practical tips and actionable steps to create diverse and inclusive workspaces.
 
+View the deployed website [dei-decoded](https://sthdinesh.github.io/dei-decoded/).
+
+
 ## User Experience
 
 ### Strategy Plane
